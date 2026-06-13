@@ -1,0 +1,76 @@
+name: vetro
+description: A cross-platform file browser with built-in previewers.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+  flutter: '>=3.32.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Theme
+  flex_color_scheme: ^8.4.0
+  dynamic_color: ^1.8.1
+
+  # Internationalization
+  intl: any
+
+  # File System
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.0
+  path: ^1.9.1
+  mime: ^2.0.1
+
+  # Permissions
+  permission_handler: ^11.4.0
+
+  # File Operations
+  share_plus: ^10.1.4
+  open_filex: ^4.7.0
+  file_picker: ^8.3.7
+
+  # Preview - Media
+  media_kit: ^1.1.11
+  media_kit_video: ^1.2.5
+  media_kit_libs_video: ^1.2.6
+  just_audio: ^0.9.43
+
+  # Preview - Documents
+  pdfrx: ^1.0.101
+  flutter_markdown: ^0.7.6+4
+
+  # Preview - Images
+  flutter_svg: ^2.2.0
+
+  # Preview - Archives
+  archive: ^4.0.4
+
+  # Utilities
+  file_icons: ^0.0.5
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.14
+  riverpod_generator: ^2.6.3
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
+    - assets/icons/
