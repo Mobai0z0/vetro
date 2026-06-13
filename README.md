@@ -1,2 +1,0 @@
-# vetro
-a file manager
